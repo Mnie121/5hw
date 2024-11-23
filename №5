@@ -1,0 +1,18 @@
+#import colorama
+from colorama import *
+print(dir())
+
+'''['AnsiToWin32', 'Back', 'Cursor', 'Fore', 'Style',
+'__builtins__', '__cached__', '__doc__', '__file__',
+'__loader__', '__name__', '__package__', '__path__',
+'__spec__', '__version__', 'ansi', 'ansitowin32',
+ 'colorama_text', 'deinit', 'init', 'initialise',
+ 'just_fix_windows_console', 'reinit', 'win32', 'winterm']'''
+
+#'AnsiToWin32', 'ansi', 'ansitowin32' - ansi коды в команды для консоли windows
+#'Back' - задать цвет заднего фона
+#'Cursor' - управление положением курсора
+#'Fore' - задать цвет текста
+#'Style' - стиль текста
+#__version__ - версия colorama
+#'deinit', 'init'/'initialise', 'reinit' - деинициализация, инициализация и переинициализация библиотеки
